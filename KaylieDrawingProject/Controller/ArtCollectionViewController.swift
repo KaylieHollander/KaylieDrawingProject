@@ -12,7 +12,7 @@ private let reuseIdentifier = "artIdentifier"
 
 public class ArtCollectionViewController: UICollectionViewController {
 
-    public override func viewDidLoad()
+    public override func viewDidLoad() -> Void
     {
         super.viewDidLoad()
 
