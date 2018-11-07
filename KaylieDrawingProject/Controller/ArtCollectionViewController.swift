@@ -12,6 +12,48 @@ private let reuseIdentifier = "artIdentifier"
 
 public class ArtCollectionViewController: UICollectionViewController {
 
+    //MARK: Data members for Creativity Screen
+    
+    private let sectionInsets = UIEdgeInsets(top: 50.0, left: 20.0, bottom: 50.0, right: 20.0)
+    private let itemsPerRowCompact : CGFloat = 4
+    private let itemsPerRowNormal : CGFloat = 6
+    
+    private let creativeCS : [UIImage?] =
+    {
+        return [
+            UIImage(named: "AndromedaGalaxy"),
+            UIImage(named: "FredtheDragon"),
+            UIImage(named: "IOSArt"),
+            UIImage(named: "JavaHaiku"),
+            UIImage(named: "KaylieHollanderOctoCat"),
+            UIImage(named: "Llama"),
+            UIImage(named: "MainframeHaiku"),
+            UIImage(named: "SombreroChicken"),
+            UIImage(named: "TheShire")
+        ]
+        
+        
+    }()
+    
+    private let labels : [String] =
+    {
+        return [
+            "AndromedaGalaxy",
+            "FredtheDragon",
+            "IOSArt",
+            "JavaHaiku",
+            "KaylieHollanderOctoCat",
+            "Llama",
+            "MainframeHaiku",
+            "SombreroChicken",
+            "TheShire",
+        ]
+        
+    }()
+    
+    
+    //MARK: - Lifecycle
+    
     public override func viewDidLoad() -> Void
     {
         super.viewDidLoad()
@@ -41,14 +83,14 @@ public class ArtCollectionViewController: UICollectionViewController {
     public override func numberOfSections(in collectionView: UICollectionView) -> Int
     {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
 
     public override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int
     {
         // #warning Incomplete implementation, return the number of items
-        return 0
+        return creativeCS.count
     }
 
     public override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell
@@ -61,6 +103,23 @@ public class ArtCollectionViewController: UICollectionViewController {
     }
 
     // MARK: UICollectionViewDelegate
+    
+    
+    public func collecionView(_ collectionView: UICollectionView,
+                              layout collectionViewLayout: UICollectionViewLayout,
+                              sizeForItemAt indexPath: IndexPath) -> CGSize
+    {
+        let paddingSpace = sectionInsets.left * (itemsPerRowCompact + 1)
+        let availableWidth = view.frame.width - paddingSpace
+        let widthPerItem = availableWidth / itemsPerRowCompact
+        
+        return CGSize(width : widthPerItem, height: widthPerItem)
+    }
+    
+    
+    
+    
+    
 
     /*
     // Uncomment this method to specify if the specified item should be highlighted during tracking

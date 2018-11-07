@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0129ADA22193386C0055AD7E /* ArtCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0129ADA12193386C0055AD7E /* ArtCollectionViewController.swift */; };
+		0129ADA421934AD30055AD7E /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0129ADA321934AD30055AD7E /* ArtCell.swift */; };
 		018B24F4218B3C5E0071429A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018B24F3218B3C5E0071429A /* AppDelegate.swift */; };
 		018B24F6218B3C5E0071429A /* DrawingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018B24F5218B3C5E0071429A /* DrawingViewController.swift */; };
 		018B24F9218B3C5E0071429A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 018B24F7218B3C5E0071429A /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		0129ADA12193386C0055AD7E /* ArtCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCollectionViewController.swift; sourceTree = "<group>"; };
+		0129ADA321934AD30055AD7E /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
 		018B24F0218B3C5E0071429A /* KaylieDrawingProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KaylieDrawingProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		018B24F3218B3C5E0071429A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		018B24F5218B3C5E0071429A /* DrawingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				018B24F7218B3C5E0071429A /* Main.storyboard */,
 				018B24FC218B3C600071429A /* LaunchScreen.storyboard */,
 				018B2508218B4B540071429A /* DrawingView.swift */,
+				0129ADA321934AD30055AD7E /* ArtCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			files = (
 				018B2509218B4B540071429A /* DrawingView.swift in Sources */,
 				018B24F6218B3C5E0071429A /* DrawingViewController.swift in Sources */,
+				0129ADA421934AD30055AD7E /* ArtCell.swift in Sources */,
 				0129ADA22193386C0055AD7E /* ArtCollectionViewController.swift in Sources */,
 				018B24F4218B3C5E0071429A /* AppDelegate.swift in Sources */,
 			);
