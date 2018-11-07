@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0129ADA22193386C0055AD7E /* ArtCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0129ADA12193386C0055AD7E /* ArtCollectionViewController.swift */; };
 		018B24F4218B3C5E0071429A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018B24F3218B3C5E0071429A /* AppDelegate.swift */; };
 		018B24F6218B3C5E0071429A /* DrawingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018B24F5218B3C5E0071429A /* DrawingViewController.swift */; };
 		018B24F9218B3C5E0071429A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 018B24F7218B3C5E0071429A /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0129ADA12193386C0055AD7E /* ArtCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCollectionViewController.swift; sourceTree = "<group>"; };
 		018B24F0218B3C5E0071429A /* KaylieDrawingProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KaylieDrawingProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		018B24F3218B3C5E0071429A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		018B24F5218B3C5E0071429A /* DrawingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				018B24F5218B3C5E0071429A /* DrawingViewController.swift */,
+				0129ADA12193386C0055AD7E /* ArtCollectionViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			files = (
 				018B2509218B4B540071429A /* DrawingView.swift in Sources */,
 				018B24F6218B3C5E0071429A /* DrawingViewController.swift in Sources */,
+				0129ADA22193386C0055AD7E /* ArtCollectionViewController.swift in Sources */,
 				018B24F4218B3C5E0071429A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
