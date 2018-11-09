@@ -29,7 +29,8 @@ public class ArtCollectionViewController: UICollectionViewController {
             UIImage(named: "Llama"),
             UIImage(named: "MainframeHaiku"),
             UIImage(named: "SombreroChicken"),
-            UIImage(named: "TheShire")
+            UIImage(named: "TheShire"),
+            UIImage(named: "TechNews")
         ]
         
         
@@ -47,6 +48,7 @@ public class ArtCollectionViewController: UICollectionViewController {
             "MainframeHaiku",
             "SombreroChicken",
             "TheShire",
+            "TechNews"
         ]
         
     }()
