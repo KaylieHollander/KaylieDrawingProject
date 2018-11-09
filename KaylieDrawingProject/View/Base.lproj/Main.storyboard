@@ -65,9 +65,8 @@
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Br-Mn-SZZ">
                                             <rect key="frame" x="-20" y="0.0" width="240" height="171"/>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oiu-xL-8dP">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oiu-xL-8dP">
                                             <rect key="frame" x="28" y="199" width="144" height="51"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -76,8 +75,14 @@
                                 </view>
                                 <color key="backgroundColor" red="0.99953407049999998" green="0.98835557699999999" blue="0.47265523669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstItem="oiu-xL-8dP" firstAttribute="width" secondItem="5Br-Mn-SZZ" secondAttribute="width" id="8qu-WM-zOI"/>
+                                    <constraint firstItem="5Br-Mn-SZZ" firstAttribute="width" secondItem="Mgg-3m-io9" secondAttribute="width" id="q8f-Zd-e3S"/>
                                     <constraint firstItem="5Br-Mn-SZZ" firstAttribute="width" secondItem="Mgg-3m-io9" secondAttribute="width" id="sfc-c5-RP9"/>
                                 </constraints>
+                                <connections>
+                                    <outlet property="artImage" destination="5Br-Mn-SZZ" id="KXy-QG-7JU"/>
+                                    <outlet property="artLabel" destination="oiu-xL-8dP" id="AYm-LU-Tqi"/>
+                                </connections>
                             </collectionViewCell>
                         </cells>
                         <connections>
