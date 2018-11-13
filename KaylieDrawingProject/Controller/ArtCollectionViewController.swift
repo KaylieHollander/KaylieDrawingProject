@@ -39,15 +39,15 @@ public class ArtCollectionViewController: UICollectionViewController {
     private let labels : [String] =
     {
         return [
-            "AndromedaGalaxy",
-            "FredtheDragon",
-            "IOSArt",
-            "JavaHaiku",
-            "KaylieHollanderOctoCat",
+            "Andromeda Galaxy",
+            "Fred The Dragon",
+            "IOS Art",
+            "Java Haiku",
+            "Kaylie Hollander OctoCat",
             "Llama",
-            "MainframeHaiku",
-            "SombreroChicken",
-            "TheShire",
+            "Mainframe Haiku",
+            "Sombrero Chicken",
+            "The Shire",
             "TechNews"
         ]
         

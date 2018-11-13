@@ -40,10 +40,10 @@
             </objects>
             <point key="canvasLocation" x="636" y="35.532233883058474"/>
         </scene>
-        <!--Collection View Controller-->
+        <!--Art Collection View Controller-->
         <scene sceneID="lQ4-Ow-IwK">
             <objects>
-                <collectionViewController id="4aE-ak-6Yt" sceneMemberID="viewController">
+                <collectionViewController id="4aE-ak-6Yt" customClass="ArtCollectionViewController" customModule="KaylieDrawingProject" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="w9D-WS-HWR">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
